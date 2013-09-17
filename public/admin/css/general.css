@@ -1,0 +1,41 @@
+﻿
+#backgroundPopup{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#000000;
+border:1px solid #cecece;
+z-index:1;
+}
+#popupContact{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	min-width:387px;
+	min-height:144px;
+	background:#FFFFFF;
+	z-index:2;
+	color:#000000;
+	font-size:13px;
+	padding:18px 25px;
+	width:auto;
+	height:auto;
+}
+
+#popupContactClose{
+
+}
+#button{
+margin:0px;
+padding:0px;
+}
+.button1{ width:400px; height:400px; background-color:#99FF00;
+
+}
+#new { width:400px; height:400px; background-color:#99FF00; position:absolute;
+
+}
