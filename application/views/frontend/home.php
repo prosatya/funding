@@ -44,7 +44,7 @@ function custom_echo($x,$z)
        <?php foreach($project as $row) { ?>
              <div class="description01">
              	<div class="images">
-            		 <img alt="iPhone" src="http://devs.speedfundrussia.com/images/clients/logo1.png">
+            		 <img alt="iPhone" src="<?php echo base_url(); ?>images/clients/logo1.png">
                 </div>
                 
                 <div class="name">

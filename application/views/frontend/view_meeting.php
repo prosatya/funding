@@ -11,7 +11,7 @@
       <div class="box-heading"><?php echo  $data_meeting->name ; ?> </div></div>
               <div class="description01">
              	<div class="images">
-            		 <img alt="iPhone" src="http://devs.speedfundrussia.com/images/clients/logo1.png">
+            		 <img alt="iPhone" src="<?php echo base_url(); ?>/images/clients/logo1.png">
                 </div>
                 
                 <div class="name">
