@@ -8,7 +8,7 @@ class Event_Model extends CI_Model {
 	function upcoming_event_list()
 	{
 	
-	   $sql = "SELECT * FROM meeting_room where starts_at > now() ORDER BY name LIMIT 0 , 2" ;
+	   $sql = "SELECT * FROM meeting_room  ORDER BY name LIMIT 0 , 2" ;
 		$query = $this->db->query($sql);
 		
 		// Checking if records found
