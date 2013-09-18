@@ -8,7 +8,12 @@
       <div class="box"><div class="box-heading"> <?php echo  $data_project->company ; ?> </div></div>
               <div class="description01">
              	<div class="images">
+					<?php if($data_project->company_logo!=""){ ?>
             		 <img alt="iPhone" src = <?php  echo base_url(); ?>upload_img/<?php $data_project->company_logo; ?> />
+					 <?php }else{ ?> 
+					 <img alt="Logo." src="<?php  echo  base_url(); ?>/images/clients/logo1.png">
+					 <?php } ?> 
+            		
                 </div>
                  <div class="description">
 				<b> Title :-</b> <?php  echo $data_project->title; ?> 

@@ -9,8 +9,13 @@
       <?php  foreach($investor_list as $row) { ?>
              <div class="description01">
              	<div class="images">
+					<?php if($row->company_logo!=""){ ?>
             		 <img alt="Logo." src="<?php  echo  base_url().$row->company_logo; ?>">
+					 <?php }else{ ?> 
+					 <img alt="Logo." src="<?php  echo  base_url(); ?>/images/clients/logo1.png">
+					 <?php } ?> 
                 </div>
+				
                 
                 <div class="name">
 				<b><a href="<?php echo base_url(); ?>BrowseInvestor/viewinvestor/<?php  echo $row->id; ?>"><?php  echo $row->first_name; ?></a> </b>

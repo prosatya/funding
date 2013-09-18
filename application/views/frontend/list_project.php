@@ -9,7 +9,11 @@
       <?php foreach($project as $row) { ?>
              <div class="description01">
              	<div class="images">
-            		 <img alt="" src="<?php  echo base_url().$row->image; ?>">
+            		 <?php if($row->$row->image!=""){ ?>
+            		 <img alt="Logo." src="<?php  echo  base_url().$row->$row->image; ?>">
+					 <?php }else{ ?> 
+					 <img alt="Logo." src="<?php  echo  base_url(); ?>/images/clients/logo1.png">
+					 <?php } ?> 
                 </div>
                 
                 <div class="name">
