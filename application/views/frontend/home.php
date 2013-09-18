@@ -19,7 +19,7 @@ function custom_echo($x,$z)
  <div class="videocontantd"><img src="<?php echo base_url(); ?>images/v1.jpg" /></div>
  <div class="slider_right">
 				<div class="box">
-					<h1>Upcoming Events</h1>
+					<h1>Events</h1>
                     	<ul class="events">
                         
                         <?php foreach($upcoming_event_list as $row) { ?>
